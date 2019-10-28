@@ -1,8 +1,8 @@
 version: '2.1'
 
 services:
-  rrssr:
-    image: rrssr
+  heyjobs-webpack:
+    image: heyjobs-webpack
     build: .
     environment:
       NODE_ENV: production
