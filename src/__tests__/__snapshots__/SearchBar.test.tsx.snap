@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`With Jest SearchBar to match snapShot 1`] = `
+<div>
+  <div
+    class="sc-bdVaJa dqCUNv"
+  >
+    <h1>
+       JobList 
+    </h1>
+    <div>
+      <input
+        placeholder="Search jobs"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>
+</div>
+`;

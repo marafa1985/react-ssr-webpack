@@ -21,7 +21,7 @@ class JobList extends Component<IProps, IState> {
       jobList: [...this.props.jobList]
     }
   }
-  filterJobList = (searchValue: string) => {
+  filterJobList (searchValue: string) {
     if (searchValue) {
       let newJobList = this.state.jobList.filter(job => job.description.includes(searchValue))
       this.setState({
